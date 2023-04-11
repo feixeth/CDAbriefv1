@@ -1,0 +1,91 @@
+/*************************** Style pour la navbar ***********************/
+.navbar {
+    background-color: #f8f9fa; /* Couleur de fond de la navbar */
+    padding: 10px; /* Espacement intérieur de la navbar */
+    display: flex;
+    justify-content: flex-start; /* Alignement à gauche de la navbar */
+}
+
+/* Style pour les éléments de navigation dans la navbar */
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-right: 10px; /* Espacement horizontal entre les éléments de navigation */
+}
+
+.navbar a {
+    color: #333; /* Couleur du texte des liens de navigation */
+    text-decoration: none; /* Supprimer le soulignement des liens de navigation */
+    padding: 5px; /* Espacement intérieur des liens de navigation */
+    transition: color 0.2s; /* Animation de transition pour la couleur du texte au survol */
+}
+
+.navbar a:hover {
+    color: #007bff; /* Couleur du texte des liens de navigation au survol */
+}
+
+/* Style pour la page active dans la navbar */
+.navbar li.active a {
+    font-weight: bold; /* Texte en gras pour la page active */
+}
+
+/*********************************************************************************************************/
+
+
+/*************************** Style CSS pour la grille de produits ***************************/
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes avec largeur égale */
+    gap: 10px; /* Espacement entre les produits */
+}
+
+.product-item {
+    background-color: #f8f9fa; /* Couleur de fond du carré de produit */
+    padding: 10px; /* Espacement intérieur du carré de produit */
+}
+
+.product-item img {
+    width: 100%; /* Image du produit en largeur 100% */
+    height: auto; /* Hauteur de l'image ajustée automatiquement */
+}
+
+.product-item h3 {
+    margin-top: 0; /* Supprimer la marge supérieure du titre du produit */
+}
+
+.product-item a {
+    display: block; /* Convertir le lien en bloc pour occuper tout l'espace disponible */
+    margin-top: auto; /* Aligner le lien en bas du carré de produit */
+}
+
+
+
+/*************************** Style CSS pour le footer ***************************/
+
+.footer {
+    background-color: #f8f9fa; /* Footer background color */
+    padding: 20px; /* Footer padding */
+}
+
+.footer-content {
+    display: flex; /* Use flexbox to create a row layout */
+    justify-content: center; /* Center align the content horizontally */
+    align-items: center; /* Center align the content vertically */
+    max-width: 960px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center align the content within the footer */
+    text-align: center; /* Center align the text within the content */
+}
+
+.footer h3 {
+    margin-bottom: 10px; /* Add margin below the heading */
+}
+
+.footer p {
+    margin-bottom: 5px; /* Add margin below the paragraphs */
+}
