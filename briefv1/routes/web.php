@@ -24,4 +24,6 @@ Route::get('/maquillage', [PageController::class, 'maquillage'])->name('maquilla
 Route::get('/beaute-des-mains', [PageController::class, 'beauteDesMains'])->name('beaute-des-mains');
 
 
+Route::get('/produit/{id}', [PageController::class, 'detail'])->name('detail-produit');
+
 
