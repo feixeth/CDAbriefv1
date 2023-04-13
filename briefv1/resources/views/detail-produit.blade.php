@@ -2,11 +2,16 @@
 <body>
 @include('partials._navbar')
 
-<h1>{{ $product->name }}</h1>
-<img src="{{ $product->image }}" alt="{{ $product->name }}">
-<p>{{ $product->description }}</p>
-<p>Prix : {{ $product->price }}</p>
-
+<main class="product-detail">
+    <h1 class="product-title">{{ $product->name }}</h1>
+    <div class="product-image">
+        <img src="{{ $product->image }}" alt="{{ $product->name }}">
+    </div>
+    <div class="product-description">
+        <p>{{ $product->description }}</p>
+        <p class="product-price">Prix : {{ $product->price }}</p>
+    </div>
+</main>
 </body>
 @include('partials._footer')
 
