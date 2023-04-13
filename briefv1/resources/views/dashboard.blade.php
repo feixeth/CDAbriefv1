@@ -1,6 +1,6 @@
 @include('partials._head')
 <body>
-<div class="wrapper">
+<div class="wrapper dashboard">
     @include('partials._navbar')
 
     <h1>Dashboard</h1>

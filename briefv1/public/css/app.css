@@ -42,7 +42,7 @@
 .product-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5px; /* Réduire l'espacement entre les produits */
+    gap: 15px; /* Réduire l'espacement entre les produits */
 }
 
 .product-item {
@@ -117,11 +117,10 @@
 
                             /*DASHBOARD*/
 
-/* Reset default margin and padding */
-body, h1, h2, table {
-    margin: 0;
-    padding: 0;
+.dashboard {
+    padding: 1rem;
 }
+
 
 /* Set default font family and font size */
 body {
@@ -131,9 +130,9 @@ body {
 
 /* Set wrapper styles */
 .wrapper {
-    max-width: 1200px;
+
     margin: 0 auto;
-    padding: 20px;
+
 }
 
 /* Style the navbar */
@@ -218,8 +217,6 @@ h2 {
 }
 
 
-
-/* DETAILS PRODUITS */
 
 
 /* Styles pour la barre de navigation */
